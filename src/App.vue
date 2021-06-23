@@ -1,9 +1,14 @@
 <template>
+<div id="app">
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Echarts</router-link> |
+    <router-link to="/about">组合API Echarts</router-link>|
+    <router-link to="/cesiumearth">CesiumEarth</router-link>
   </div>
   <router-view/>
+
+</div>
+
 </template>
 
 <style lang="scss">
