@@ -1,10 +1,10 @@
 <template>
 <div id="app">
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Echarts</router-link> |
     <router-link to="/about">组合API Echarts</router-link>|
     <router-link to="/cesiumearth">CesiumEarth</router-link>
-  </div>
+  </div> -->
   <router-view/>
 
 </div>
